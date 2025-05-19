@@ -4,6 +4,7 @@ import { Player } from './Player';
 import { PlayerRoles } from './PlayerRoles';
 
 export interface ICommandDef {
+	/** @property {string} name Name of the command */
 	name: string;
 	func: Function;
 	type?: CommandType;
